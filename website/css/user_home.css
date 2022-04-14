@@ -1,0 +1,218 @@
+#welcome_page{
+    width: 620px;
+    height: 730px;
+    margin: auto auto;
+
+    border-radius: 15px;
+    border: 5px solid rgb(3, 10, 102);
+    font-family: 'comic sans ms';
+    font-size: 15px;
+    color: rgb(4, 13, 135);
+
+    background-color: rgba(173, 218, 232, 0.7);
+}
+.image{
+    width: 94px;
+    height: 120px;
+    margin: 40px 85px;
+}
+.image2{
+    width: 94px;
+    height: 120px;
+    box-shadow: 0 0 5px rgb(21, 1, 1);
+    margin: 40px 85px;
+}
+.welcome{
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'gisha';
+    text-shadow: 0 0 2px rgb(1, 63, 156), 0 0 5px rgb(143, 210, 236), 0 0 8px rgb(1, 63, 156), 0 0 12px rgb(143, 210, 236);
+    color: rgb(7, 26, 131);
+    padding-left: 55px;
+    margin: auto 30;
+}
+.user{
+    padding-left: 350px; 
+    font-weight: bold;
+}
+.logout{
+    margin: -26 443;
+    height: 24px;
+    background-color: rgb(4, 15, 114);
+    color: rgb(79, 175, 220);
+    width: 92px;
+    box-shadow: 0 0 6px rgb(79, 175, 220),0 0 8px rgb(79, 175, 220);
+    font-size: 15px;
+    font-family: 'gisha';
+    font-weight: bold;
+    border: none;
+}
+
+
+#line1{
+    height: 2px;
+    background: black;
+    box-shadow: 0 0 1px rgb(21, 1, 1);
+}
+
+
+#personal{
+    width: 450px;
+    height: 222px;
+    margin: -25px auto;
+    border: none;
+    font-family: 'gisha';
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 0 5px rgb(21, 1, 1);
+    color: black;
+}
+.title{
+    padding-left: 19px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.edit{
+    margin: -18px 381px;
+    background-color: rgb(5, 109, 48);
+    color: rgb(250, 250, 250);
+    border: none;
+    height: 19px;
+    width: 48px;
+    box-shadow: 0 0 3px rgb(4, 15, 114);
+    font-weight: bold;
+    letter-spacing: 2px ;
+    border-radius: 2px;
+    padding-top: 2px;
+}
+.line1{
+    height: 1px;
+    background: rgb(99, 93, 93);
+    box-shadow: 0 0 3px rgb(21, 1, 1);
+    margin: auto 20px;
+}
+.details{
+    margin-top: 8px;
+    line-height: 22px;
+}
+.label1{
+    padding-top: 30px;
+    padding-left: 19px;
+    font-size: 12px;  
+    text-transform: uppercase;
+}
+.name{
+    padding-left: 62.5px;
+}
+.gender{
+    padding-left: 50px;
+}
+.age{
+    padding-left: 73px;
+}
+.address1{
+    padding-left: 44.5px;
+}
+.address2{
+    padding-left: 121px;
+}
+.phone{
+    padding-left: 5px;
+}
+.email{
+    padding-left: 8.5px;
+}
+
+
+
+#security{
+    width: 450px;
+    height: 110px;
+    margin: 38 auto;
+    border: none;
+    font-family: 'gisha';
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 0 5px rgb(21, 1, 1);
+    color: black;
+}
+.title2{
+    padding-left: 19px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.edit_pass{
+    margin: -18px 381px;
+    background-color: rgb(5, 109, 48);
+    color: rgb(250, 250, 250);
+    border: none;
+    height: 19px;
+    width: 48px;
+    box-shadow: 0 0 3px rgb(4, 15, 114);
+    font-weight: bold;
+    letter-spacing: 2px ;
+    border-radius: 2px;
+    padding-top: 2px;
+}
+.line2{
+    height: 1px;
+    background: rgb(99, 93, 93);
+    box-shadow: 0 0 3px rgb(21, 1, 1);
+    margin: auto 20px;
+}
+.details2{
+    margin-top: 8px;
+    line-height: 22px;
+}
+.label2{
+    padding-top: 30px;
+    padding-left: 19px;
+    font-size: 12px;  
+    text-transform: uppercase;
+}
+.username{
+    padding-left: 35px;
+}
+.password{
+    padding-left: 34px;
+}
+.delete_acc{
+    margin: -25px 85px;
+    height: 24px;
+    background-color: rgb(179, 3, 3);
+    color: rgb(224, 233, 237);
+    width: 128px;
+    box-shadow: 0 0 5px rgb(179, 3, 3),0 0 5px rgb(224, 233, 237);
+    font-size: 14px;
+    font-family: 'gisha';
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}
+
+.gallery_text{
+    margin: -574px 444px;
+    height: 27px;
+    width: 90px;
+    background-color: rgb(5, 109, 48);
+    color: rgb(250, 250, 250);
+    box-shadow: 0 0 3px rgb(4, 15, 114);
+    font-size: 14px;
+    font-family: 'gisha';
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}
+.chat_text{
+    margin: -550px 444px;
+    height: 27px;
+    width: 90px;
+    background-color: rgb(5, 109, 48);
+    color: rgb(250, 250, 250);
+    box-shadow: 0 0 3px rgb(4, 15, 114);
+    font-size: 14px;
+    font-family: 'gisha';
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}

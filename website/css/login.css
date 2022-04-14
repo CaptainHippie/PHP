@@ -1,0 +1,90 @@
+#loginpage{
+    width: 500px;
+    height: 540px;
+    margin: auto auto;
+    border-radius: 15px;
+    border: 5px solid rgb(3, 10, 102);
+    font-family: 'comic sans ms';
+    font-size: 15px;
+    color: rgb(4, 13, 135);
+    background-color: rgba(173, 218, 232, 0.7);
+}
+.image{
+    width: 350px;
+    height: 96px;
+    /*width: 361px;
+    height: 113px;*/
+    padding-top: 40px;
+    padding-left: 69px;
+}
+.heading{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'gisha';
+    text-shadow: 0 0 2px rgb(1, 63, 156), 0 0 5px rgb(143, 210, 236), 0 0 8px rgb(1, 63, 156), 0 0 12px rgb(143, 210, 236);
+    color: rgb(7, 26, 131);
+}
+.label{
+    padding-left: 124px;
+}
+.namebox{
+    width: 170px;
+    height: 28px;
+    margin: 10 19;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+}
+.passbox{
+    width: 170px;
+    height: 28px;
+    margin: 5 20;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+}
+.login{
+    margin: 38 200;
+    height: 28px;
+    background-color: rgb(4, 15, 114);
+    color: rgb(79, 175, 220);
+    width: 100px;
+    box-shadow: 0 0 6px rgb(79, 175, 220),0 0 8px rgb(79, 175, 220);
+    font-size: 16px;
+    font-family: 'gisha';
+    font-weight: bold;
+    border: none;
+}
+.new_user{
+    margin: auto 173;
+    font-family: 'calibri';
+    font-size: 14px;
+    color: rgb(4, 87, 18);
+}
+.register{
+    margin: 10 200;
+    height: 28px;
+    background-color: rgb(79, 175, 220);
+    color: rgb(2, 24, 122);
+    width: 100px;
+    box-shadow: 0 0 6px rgb(4, 15, 114),0 0 8px rgb(4, 15, 114);
+    font-size: 16px;
+    font-family: 'gisha';
+    font-weight: bold;
+    border: none;
+}
+.no_user{
+    padding-left: 194px;
+    color: rgb(248, 9, 9);
+    margin: -210px auto;
+    font-family: 'gisha';
+    font-size: 12px
+    }
+.invalid{
+   padding-left: 205px;
+    color: rgb(248, 9, 9);
+    margin: -210px auto;
+    font-family: 'gisha';
+    font-size: 12px;
+}

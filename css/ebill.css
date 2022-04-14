@@ -1,0 +1,64 @@
+#main_wrap{
+    width: 345px;
+    height: 325px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 2px solid rgb(5, 52, 114);
+    font-family: 'comic sans ms';
+    font-size: 14px;
+    background-image: url("images/menubg.gif")
+}
+.myform{
+    margin: 28 auto;
+}
+.heading{
+    width: 120px;
+    margin: 9 62;
+    padding: 4px;
+    font-weight: bolder;
+    font-size: 22px;
+    text-shadow: 0 0 2px rgb(143, 210, 236), 0 0 5px rgb(143, 210, 236), 0 0 8px rgb(143, 210, 236), 0 0 12px rgb(143, 210, 236);
+    color: rgb(7, 26, 131);
+}
+.input1{
+    width: 120px;
+    margin: 5 71;
+    padding: 4px;
+}
+.input2{
+    width: 120px;
+    margin: 5 26;
+    padding: 4px;
+}
+.input3{
+    width: 120px;
+    margin: 5 3;
+    padding: 4px;
+
+}
+.input4{
+    width: 120px;
+    margin: 5 1;
+    padding: 4px;
+
+}
+.label{
+    margin-left: 32px;
+    color: rgb(149, 223, 233);
+    text-shadow: 0 0 3px rgb(2, 15, 88),0 0 5px rgb(2, 15, 88);
+}
+.radio{
+    color: rgb(149, 223, 233);
+    text-shadow: 0 0 3px rgb(2, 15, 88),0 0 5px rgb(2, 15, 88);
+}
+#submitkey{
+    margin: 0 122;
+    background-color: rgb(185, 232, 236);
+    color: rgb(2, 24, 122);
+    width: 100px;
+    box-shadow: 0 0 6px rgb(4, 15, 114),0 0 8px rgb(4, 15, 114);
+    font-size: 16px;
+    font-family: 'comic sans ms';
+    font-weight: bold;
+    border: none;
+}

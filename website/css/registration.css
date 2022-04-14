@@ -1,0 +1,200 @@
+#reg_page{
+    width: 620px;
+    height: 900px;
+    margin: auto auto;
+
+    border-radius: 15px;
+    border: 5px solid rgb(3, 10, 102);
+    font-family: 'comic sans ms';
+    font-size: 15px;
+    color: rgb(4, 13, 135);
+
+    background-color: rgba(173, 218, 232, 0.7);
+}
+.image{
+    width: 94px;
+    height: 120px;
+    margin: 40px 40px;
+}
+.image2{
+    width: 94px;
+    height: 120px;
+    box-shadow: 0 0 5px rgb(21, 1, 1);
+    margin: 40px 40px;
+}
+.imgupload{
+    margin: -14px 41px;
+}
+.img_label{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 3px rgb(21, 1, 1);
+    color: white;
+    background-color: green;
+    font-size: 11px;
+}
+.img_input{
+   visibility: hidden;
+}
+.title{
+    margin: 20px 200px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'gisha';
+    text-shadow: 0 0 2px rgb(1, 63, 156), 0 0 5px rgb(143, 210, 236), 0 0 8px rgb(1, 63, 156), 0 0 12px rgb(143, 210, 236);
+    color: rgb(7, 26, 131);
+}
+
+#white_box{
+    width: 450px;
+    height: 655px;
+    margin: auto auto;
+    border: none;
+    font-family: 'gisha';
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 0 5px rgb(21, 1, 1);
+    color: black;
+}
+.details{
+    margin-top: 8px;
+    line-height: 25px;
+}
+.label{
+    padding-top: 30px;
+    padding-left: 38px;
+    font-size: 12px;  
+    text-transform: uppercase;
+}
+.box{
+    height: 20px;
+    width: 255px;
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.box2{
+    height: 20px;
+    width: 245px;
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.label_pers{
+    font-weight: bold;
+    padding-left: 38px;
+}
+.fname{
+    padding-left: 40px;
+}
+.sname{
+    padding-left: 43px;
+}
+.address{
+    padding-left: 56px;
+}
+.age{
+    padding-left: 40px;
+}
+
+.gender{
+    padding-left: 63px;
+}
+.gender_select{
+    height: 20px;
+    width: 85px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.agebox{
+    height: 20px;
+    width : 85px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.city{
+    padding-left: 83px;
+}
+.state{
+    padding-left: 73.5px;
+}
+.phone{
+    padding-left: 17px;
+}
+.email{
+    padding-left: 18px;
+}
+.label_sec{
+    font-weight: bold;
+    padding-left: 38px;
+}
+.uname{
+    padding-left: 55px;
+}
+.passw{
+    padding-left: 55px;
+}
+.submit{
+    margin: 20px 85px;
+    height: 27px;
+    background-color: rgb(2, 92, 32);
+    color: rgb(224, 233, 237);
+    width: 120px;
+    box-shadow: 0 0 4px rgb(1, 17, 0);
+    font-size: 14px;
+    font-family: 'gisha';
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}
+.cancel{
+    margin: -7px 85px;
+    height: 27px;
+    background-color: rgb(172, 6, 6);
+    color: rgb(240, 239, 236);
+    width: 120px;
+    box-shadow: 0 0 4px rgb(1, 17, 0);
+    font-size: 14px;
+    font-family: 'gisha';
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}
+.reset{
+    margin: 20px -45px;
+    height: 27px;
+    background-color: rgb(4, 15, 114);
+    color: rgb(79, 175, 220);
+    width: 120px;
+    box-shadow: 0 0 4px rgb(1, 17, 0);
+    font-size: 14px;
+    font-family: 'gisha';
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}
+.success{
+    color: rgb(14, 6, 170);
+    font-size: 13px;
+    margin: -118px 210px;
+    font-family: 'gisha';
+    text-transform: uppercase;
+}
+.user_exist{
+    color: red;
+    font-size: 13px;
+    margin: -118px 220px;
+    font-family: 'gisha';
+    text-transform: uppercase;
+}
+.no_match{
+    color: red;
+    font-size: 13px;
+    margin: -118px 135px;
+    font-family: 'gisha';
+    text-transform: uppercase;
+}

@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(191, 227, 236);
+    font-family: 'gisha';
+}
+header{
+    padding-top: 20px;
+    color: rgb(29, 5, 151);
+    margin-left: 450px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#left_box{
+    background-color: rgb(7, 7, 121);
+    margin: 40px 50px;
+    border-radius: 7px;
+    width: 420px;
+    height: 520px;
+}
+#l_chat{
+    background-color: rgba(188, 218, 235, 0.8);
+    margin: -18px 20px;
+    width: 380px;
+    height: 345px; 
+    overflow:auto;
+    font-family: 'comic sans ms';
+    font-size: 12px;
+}
+.self_msg{
+    margin-right: 5px;
+    background-color: rgb(3, 108, 24);
+    color: white;
+    padding: 6px 6px 6px 6px;
+    border-radius: 3px;
+}
+.other_msg{
+    margin-left: 5px;
+    background-color: white;
+    padding: 6px 6px 6px 6px;
+    border-radius: 3px;
+}
+.msgbox{
+    margin: 30px 20px;
+    width: 320px;
+    height: 50px;
+    overflow: auto;
+    resize: none;
+    background-color: white;
+}
+.send_btn{
+    margin: -80px 350px;
+    height: 50px;
+    width: 50px;
+    font-size: 12px;
+    background-color: rgb(3, 108, 24);
+    color: white;
+}
+.uname_box{
+    float: right;
+    margin: -40px 20px;
+    width: 100px;
+}
+.uname_box2{
+    float: right;
+    margin: -59px 20px;
+    width: 100px;
+}
+.login_btn{
+    margin: -34px 20px;
+    width: 100px;
+    float: right;
+}
+.logged{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+.logged2{
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+}
+#right_box{
+    background-color: rgb(7, 7, 121);
+    border-radius: 7px;
+    margin: -560px 517px;
+    width: 420px;
+    height: 520px;
+    font-family: 'comic sans ms';
+}
+.delete{
+    margin: 20px -70px;
+    color: white;
+    background-color: red;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+::-webkit-scrollbar{
+    width: 2px;
+    color: white;
+}

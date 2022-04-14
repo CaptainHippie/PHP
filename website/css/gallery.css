@@ -1,0 +1,98 @@
+#gallery{
+    width: 620px;
+    margin: auto auto;
+    border-radius: 15px;
+    border: 5px solid rgb(3, 10, 102);
+    font-family: 'comic sans ms';
+    font-size: 15px;
+    color: rgb(4, 13, 135);
+
+    background-color: rgba(173, 218, 232, 0.7);
+}
+.title{
+    margin: auto 244px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'gisha';
+    text-shadow: 0 0 2px rgb(1, 63, 156), 0 0 5px rgb(143, 210, 236), 0 0 8px rgb(1, 63, 156), 0 0 12px rgb(143, 210, 236);
+    color: rgb(7, 26, 131);
+}
+#bg_box{
+    width: 450px;
+    margin: auto auto;
+    border: none;
+    font-family: 'gisha';
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 0 5px rgb(21, 1, 1);
+    color: black;
+}
+.up_form{
+    padding-top: 14px;
+    margin: -4px -235px;
+    color: red;
+}
+.files{
+    visibility: hidden;
+}
+.upload_label{
+    margin: auto 3px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 2px rgb(4, 15, 114);
+    color: rgb(2, 24, 122);
+    background-color: rgb(79, 175, 220);
+    font-size: 11px;
+    font-weight: bold;
+}
+.upload{
+    margin: auto -2px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 2px rgb(21, 1, 1);
+    border: none;
+    color: white;
+    background-color: green;
+    font-size: 11px;  
+}
+.back{
+    margin: auto 190px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 2px rgb(21, 1, 1);
+    border: none;
+    color: rgb(79, 175, 220);
+    background-color: rgb(4, 15, 114);
+    font-size: 11px;  
+    font-weight: bold;
+}
+
+.delete{
+    margin: -16px 282px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 2px rgb(21, 1, 1);
+    border: none;
+    color: rgb(224, 233, 237);
+    background-color: rgb(179, 3, 3);
+    font-size: 11px;  
+    font-weight: bold;
+}
+.line1{
+    height: 1px;
+    background: rgb(99, 93, 93);
+    box-shadow: 0 0 3px rgb(21, 1, 1);
+    margin: 10px 23px;
+}
+.images{
+    margin: auto 23px;
+}
+

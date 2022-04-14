@@ -1,0 +1,279 @@
+#personal_page{
+    width: 620px;
+    height: 700px;
+    margin: auto auto;
+
+    border-radius: 15px;
+    border: 5px solid rgb(3, 10, 102);
+    font-family: 'comic sans ms';
+    font-size: 15px;
+    color: rgb(4, 13, 135);
+
+    background-color: rgba(173, 218, 232, 0.7);
+}
+.image{
+    width: 94px;
+    height: 120px;
+
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.imgupload{
+    margin: 16px 41px;
+}
+.img_label{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 5px rgb(21, 1, 1);
+    color: white;
+    background-color: green;
+    font-size: 11px;
+}
+.img_input{
+   /* color: rgba(173, 218, 232, 0);*/
+   visibility: hidden;
+
+}
+#personal{
+    width: 450px;
+    height: 486px;
+    margin: auto auto;
+    border: none;
+    font-family: 'gisha';
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 0 5px rgb(21, 1, 1);
+    color: black;
+}
+.title{
+    padding-left: 19px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.line1{
+    height: 1px;
+    background: rgb(99, 93, 93);
+    box-shadow: 0 0 3px rgb(21, 1, 1);
+    margin: 10px 20px;
+}
+.details{
+    margin-top: 8px;
+    line-height: 25px;
+}
+.label{
+    padding-top: 30px;
+    padding-left: 38px;
+    font-size: 12px;  
+    text-transform: uppercase;
+}
+.box{
+    height: 20px;
+    width: 240px;
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.fname{
+    padding-left: 40px;
+}
+.sname{
+    padding-left: 43px;
+}
+.address{
+    padding-left: 56px;
+}
+.age{
+    padding-left: 35px;
+}
+
+.gender{
+    padding-left: 63px;
+}
+.gender_select{
+    height: 20px;
+    width: 80px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.agebox{
+    height: 20px;
+    width : 80px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.city{
+    padding-left: 83px;
+}
+.state{
+    padding-left: 73.5px;
+}
+.phone{
+    padding-left: 17px;
+}
+.email{
+    padding-left: 18px;
+}
+.apply{
+    margin: 12px 85px;
+    height: 24px;
+    background-color: rgb(2, 92, 32);
+    color: rgb(224, 233, 237);
+    width: 128px;
+    box-shadow: 0 0 5px rgb(1, 17, 0);
+    font-size: 14px;
+    font-family: 'gisha';
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}
+.cancel{
+    margin: -7px 85px;
+    height: 24px;
+    background-color: rgb(4, 15, 114);
+    color: rgb(79, 175, 220);
+    width: 90px;
+    box-shadow: 0 0 5px rgb(1, 17, 0);
+    font-size: 14px;
+    font-family: 'gisha';
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
+#security_page{
+    width: 620px;
+    height: 400px;
+    margin: auto auto;
+
+    border-radius: 15px;
+    border: 5px solid rgb(3, 10, 102);
+    font-family: 'comic sans ms';
+    font-size: 15px;
+    color: rgb(4, 13, 135);
+
+    background-color: rgba(173, 218, 232, 0.7);
+}
+#security{
+    width: 450px;
+    height: 206px;
+    margin: auto auto;
+    border: none;
+    font-family: 'gisha';
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 0 5px rgb(21, 1, 1);
+    color: black;
+}
+
+.line2{
+    height: 1px;
+    background: rgb(99, 93, 93);
+    box-shadow: 0 0 3px rgb(21, 1, 1);
+    margin: 10px 20px;
+}
+.details2{
+    margin-top: 15px;
+    line-height: 25px;
+}
+.label2{
+    padding-top: 30px;
+    padding-left: 22px;
+    font-size: 12px;  
+    text-transform: uppercase;
+}
+.box2{
+    height: 20px;
+    width: 260px;
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.unamebox{
+    height: 20px;
+    width: 192.5px;
+    font-size: 11px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.uname{
+    padding-left: 64px;
+}
+.c_pass{
+    padding-left: 8px;
+}
+.new_pass{
+    padding-left: 34px;
+}
+
+.con_pass{
+    padding-left: 8px;
+}
+
+
+.change_user{
+    height: 18px;
+    background-color: rgb(2, 92, 32);
+    color: rgb(224, 233, 237);
+    width: 63px;
+    box-shadow: 0 0 3px rgb(1, 9, 0);
+    font-size: 12px;
+    font-family: 'gisha';
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}
+.c_pass_button{
+    margin: 12px 86px;
+    height: 22px;
+    background-color: rgb(2, 92, 32);
+    color: rgb(224, 233, 237);
+    width: 142px;
+    box-shadow: 0 0 4px rgb(1, 9, 0);
+    font-size: 12px;
+    font-family: 'gisha';
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}
+.cancel2{
+    margin: -7px 85px;
+    height: 22px;
+    background-color: rgb(4, 15, 114);
+    color: rgb(79, 175, 220);
+    width: 80px;
+    box-shadow: 0 0 4px rgb(1, 9, 0);
+    font-size: 12px;
+    font-family: 'gisha';
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}
+
+.change_success{
+    color: rgb(4, 15, 114);
+    font-size: 9px;
+    margin: -193px auto;
+    padding-left: 248px;
+}
+.user_change{
+    color: red;
+    font-size: 9px;
+    margin: -193px auto;
+    padding-left: 248px;
+}
+.wrong_pass{
+    color: red;
+    font-size: 9px;
+    margin: -100px auto;
+    padding-left: 245px;
+}

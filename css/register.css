@@ -1,0 +1,180 @@
+#main{
+    width: 500px;
+    height: 740px;
+    margin: auto auto;
+    border-left: 50px;
+    border-radius: 15px;
+    border: 5px solid rgb(3, 10, 102);
+    font-family: 'comic sans ms';
+    font-size: 15px;
+    color: rgb(4, 13, 135)  ;
+    padding-top: -30px;
+    background-color: rgba(173, 218, 232, 0.7);
+}
+.heading{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'gisha';
+    text-shadow: 0 0 2px rgb(1, 63, 156), 0 0 5px rgb(143, 210, 236), 0 0 8px rgb(1, 63, 156), 0 0 12px rgb(143, 210, 236);
+    color: rgb(7, 26, 131);
+}
+.first{
+    margin: 50 auto;
+    border-left: 50px;
+    white-space: pre-line;
+    padding-left: 50px;
+}
+.last{
+    margin: 30 auto;
+    padding-left: 110px;
+
+}
+.label{
+    padding-left: 70px;
+
+}
+.gender{
+    font-size: 14px;
+    width: 85px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-align: center;
+    margin: auto 20px;
+}
+
+.age{
+    padding-left: 24px;
+}
+.agebox{
+    width: 85px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    text-align: center;
+    margin: auto 20px;
+}
+.fnamebox{
+    width: 170px;
+    height: 28px;
+    margin: 10 69;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+}
+.snamebox{
+    margin: 10 -50;
+    width: 170px;
+    height: 28px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+}
+.addressbox{
+    width: 270px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    margin: auto 20px;
+}
+.submit{
+    margin: 30 70;
+    height: 28px;
+    background-color: rgb(79, 175, 220);
+    color: rgb(2, 24, 122);
+    width: 100px;
+    box-shadow: 0 0 6px rgb(4, 15, 114),0 0 8px rgb(4, 15, 114);
+    font-size: 16px;
+    font-family: 'gisha';
+    font-weight: bold;
+    border: none;
+}
+.view{
+    margin: 10 -45;
+    height: 28px;
+    background-color: rgb(79, 175, 220);
+    color: rgb(2, 24, 122);
+    width: 100px;
+    box-shadow: 0 0 6px rgb(4, 15, 114),0 0 8px rgb(4, 15, 114);
+    font-size: 16px;
+    font-family: 'gisha';
+    font-weight: bold;
+    border: none;
+}
+.citybox{
+    width: 108px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    margin: auto 15px;
+}
+.statebox{
+    width: 109px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    margin: auto 15px;
+}
+.phonebox{
+    width: 227px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    margin: auto 20px;
+}
+.emailbox{
+    width: 227px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    margin: auto 20px;
+}
+.usernamebox{
+    width: 202px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    margin: auto 19px;
+}
+.passwordbox{
+    width: 204px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    margin: auto 21px;
+}
+
+.reset{
+    margin: 10 68;
+    height: 28px;
+    background-color: rgb(79, 175, 220);
+    color: rgb(2, 24, 122);
+    width: 100px;
+    box-shadow: 0 0 6px rgb(4, 15, 114),0 0 8px rgb(4, 15, 114);
+    font-size: 16px;
+    font-family: 'gisha';
+    font-weight: bold;
+    border: none;
+}
+#back{
+    margin: 30 70;
+    height: 28px;
+    background-color: rgb(79, 175, 220);
+    color: rgb(2, 24, 122);
+    width: 100px;
+    box-shadow: 0 0 6px rgb(4, 15, 114),0 0 8px rgb(4, 15, 114);
+    font-size: 16px;
+    font-family: 'gisha';
+    font-weight: bold;
+    border: none;
+}

@@ -1,0 +1,83 @@
+#body {
+    width: 1650px;
+    height: 1200px;
+    margin: 100 auto;
+    border-radius: 15px;
+  border-collapse: collapse;
+  background-color: rgba(173, 218, 232, 0.7);
+  border: 5px solid rgb(3, 10, 102);
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'gisha';
+    text-shadow: 0 0 2px rgb(1, 63, 156), 0 0 5px rgb(143, 210, 236), 0 0 8px rgb(1, 63, 156), 0 0 12px rgb(143, 210, 236);
+    color: rgb(7, 26, 131);
+}
+.empty{
+  margin: auto 420px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'gisha';
+  color: red;  
+  font-weight: bold;
+}
+
+#database {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    background-color: rgba(236, 247, 28, 0.3);
+    border: 2px solid rgb(3, 10, 102);
+    margin: auto auto;
+    text-align: center;
+  }
+  .editbox{
+    color: red;
+    width: 100px;
+    font-family: 'gisha';
+  }
+    #database td, #database th {
+    border: 1px solid rgb(3, 10, 102);
+    padding: 8px;
+    text-align: center;
+  }
+  #database tr:hover {background-color: #ddd;}
+
+  
+  #database th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: rgb(3, 10, 102);
+  }
+
+
+.cmds{
+  margin: auto auto;
+}
+.clear{
+  margin: 416 785;
+  height: 28px;
+  background-color: rgb(197, 5, 5);
+  color: rgb(243, 253, 45);
+  width: 120px;
+  box-shadow: 0 0 6px rgb(4, 15, 114),0 0 8px rgb(4, 15, 114);
+  text-shadow: 0 0 6px rgb(197, 5, 5),0 0 8px rgb(197, 5, 5);
+  font-size: 15px;
+  font-family: 'gisha';
+  font-weight: 700;
+  border: none;
+}
+.back{
+  margin: -411 785;
+  height: 28px;
+  background-color: rgb(79, 175, 220);
+  color: rgb(2, 24, 122);
+  width: 120px;
+  box-shadow: 0 0 6px rgb(4, 15, 114),0 0 8px rgb(4, 15, 114);
+  font-size: 16px;
+  font-family: 'gisha';
+  font-weight: bold;
+  border: none;
+}
