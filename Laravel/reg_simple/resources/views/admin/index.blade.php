@@ -1,23 +1,22 @@
 @extends('admin.layout')
 @section('content')
-<br><br>
-<div class="container">
+<div class="container" style="margin:auto 150px">
 <div class="row">
     <div class="col-md-9">
-        <div class="card">
-            <div class="card-header">
-            <h2>Admin Panel</h2>
+        <div class="card" style="background-color:rgba(234, 225, 225, 0.96);padding-left:25px"><br>
+            <div style="margin-left:16px;width:93.5%">
+            <h2>ADMINISTRATOR PANEL</h2><hr>
             </div>
             <div class="card-body">
-                <a href="{{ url('/admin/create') }}" class="btn btn-success btn-sm" title="Add New User">
+                <a href="{{ url('/admin/create') }}" class="btn btn-success" title="Add New User">
                 <i class="fa fa-plus" aria-hidden="true"></i> Add</a><br/><br/>
                 <div class="table-responsive">
                 <table class="table">
                 <thead>
                     <tr>
                     <th>#</th>
-                    <th>Name</th><th>Email</th><th>Mobile</th>
-                    <th>Username</th><th>Password</th><th>Action</th>
+                    <th>NAME</th><th>EMAIL</th><th>MOBILE</th>
+                    <th>USERNAME</th><th>PASSWORD</th><th>ACTION</th>
                     </tr>
                 </thead>
                 <tbody>@foreach($users as $item)
