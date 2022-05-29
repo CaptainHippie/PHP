@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\CRUDcontroller;
+use App\Http\Controllers\AdminController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,3 +25,7 @@ Route::post('/regsubmit',[CustomAuthController::class,'register_click'])->name('
 Route::post('/loginsubmit',[CustomAuthController::class,'login_click'])->name('user-login');
 Route::get('/userhome',[CustomAuthController::class,'login_success'])->middleware('IsLoggedIn');
 Route::get('/logout',[CustomAuthController::class,'logout']);
+
+Route::resource('students', CRUDcontroller::class);
+
+Route::resource('admin', Admincontroller::class);

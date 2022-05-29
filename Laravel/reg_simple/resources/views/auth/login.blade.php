@@ -8,10 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Login</title>
 </head>
-<body>
-<div class="container">
+<body style="background-color: black">
+<div class="container" style="margin:auto 580px">
 <div class="row">
-<div class="col-md-4 col-md-offset-4" style="margin-top: 25px">
+<div class="col-md-4 col-md-offset-4" style="margin-top: 25px;background-color:rgba(234, 225, 225, 0.96);padding:3%;border-radius:2%">
 <h4>LOGIN</h4><hr>
 <form action={{route('user-login')}} method="POST">
 @if (Session::has('success'))
@@ -31,7 +31,7 @@
     <label for="uname">Username</label>
     <input type="text" name="uname" class="form-control" value={{old('uname')}}>
     <span class="text-danger">@error('uname') {{$message}} @enderror</span>
-</div>
+</div><br>
 <div class="form-group">
     <label for="password">Password</label>
     <input type="password" name="passwd" class="form-control">

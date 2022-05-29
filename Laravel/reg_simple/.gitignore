@@ -12,9 +12,10 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-/database/migrations
+
 composer.lock
 /app/Exceptions
 /app/Providers
 /database/seeders
 /config
+.htaccess
