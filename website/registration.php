@@ -107,8 +107,8 @@ if (isset($_POST['submit']))
     {
         if ($pass == $c_pass)
         {
-            mysqli_query($con,"INSERT INTO userdata(f_name,s_name,gender,age,addr,city,stat,phone,email,username,pass) 
-            VALUES('$fname','$sname','$gender','$age','$address','$city','$state','$phone','$email','$uname','$pass')");
+            mysqli_query($con,"INSERT INTO userdata(f_name,s_name,gender,age,addr,city,stat,phone,email,username,pass,imglink,img_collect) 
+            VALUES('$fname','$sname','$gender','$age','$address','$city','$state','$phone','$email','$uname','$pass','','')");
             if (empty($img_name))
             {}
             else

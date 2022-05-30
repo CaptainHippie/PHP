@@ -33,14 +33,15 @@ for($j=5;$j<=$size;$j++)
 <x class="title">GALLERY</x><br><br>
 <div id="bg_box" style=<?php echo "height:".$x2."px";?>>
 <form method="post" name="uploading" enctype="multipart/form-data" class="up_form"><br>
-    <input type="file" name="files[]" id="select_file" class="files" accept=".jpg,.png,.mp4,.mkv,.flv" multiple>
+    <input type="file" name="files[]" id="select_file" class="files" 
+        accept=".jpg,.png,.mp4,.mkv,.flv" multiple>
     <label for="select_file" class="upload_label">SELECT FILES</label>&nbsp;
     <input type="submit" name="upload" value="UPLOAD" class="upload">
     <a href="user_home.php"><input type="button" name="back" value="BACK" class="back"></a>
 </form>
 <div class="del_btn"><form method="post" name="deleting"  class="delete_all">
-    <input type="submit" name="delete" value="DELETE ALL" class="delete"></div>
-</form>
+    <input type="submit" name="delete" value="DELETE ALL" class="delete">
+</form></div>
 <div class="line1"></div>
 <div class="images">
 
@@ -59,7 +60,8 @@ foreach ($split as $img)
         }
         else
         {
-            echo "<video width='200' height='151' controls='controls'><source src='$rec_path'></video>&nbsp";
+            echo "<video width='200' height='151' controls='controls'><source 
+                src='$rec_path'></video>&nbsp";
         }
         if ($count >= 1)
         {

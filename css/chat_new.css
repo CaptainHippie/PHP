@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(191, 227, 236);
+    font-family: 'gisha';
+}
+header{
+    padding-top: 4%;
+    color: rgb(29, 5, 151);
+    text-align: center;
+    font-size: 100%;
+    font-weight: bolder;
+}
+#main{
+    margin: auto;
+    width: 60%;
+}
+.left_box{
+    background-color: rgb(7, 7, 121);
+    margin: 5% 3%;
+    border-radius: 4%;
+    width: 45%;
+    height: 80%;
+    font-family: 'comic sans ms';
+}
+.l_chat{
+    background-color: rgba(188, 218, 235, 0.8);
+    margin: -2% 4.5%;
+    width: 91%;
+    height: 67%; 
+    overflow:auto;
+    font-family: 'comic sans ms';
+    font-size: 12px;
+}
+.self_msg{
+    margin-right: 5px;
+    background-color: rgb(3, 108, 24);
+    color: white;
+    padding: 6px 6px 6px 6px;
+    border-radius: 3px;
+}
+.other_msg{
+    margin-left: 5px;
+    background-color: white;
+    padding: 6px 6px 6px 6px;
+    border-radius: 3px;
+}
+.msgbox{
+    margin: 7% 4.5%;
+    width: 70%;
+    height: 10%;
+    overflow: auto;
+    resize: none;
+    background-color: white;
+}
+.send_btn{
+    margin: -24.5% 76.5%;
+    height: 10%;
+    width: 19%;
+    font-size: 12px;
+    background-color: rgb(3, 108, 24);
+    color: white;
+}
+.uname_box{
+    float: right;
+    margin: -12% 4.5%;
+    width: 32%;
+}
+.uname_box2{
+    float: right;
+    margin: -19.4% 4.5%;
+    width: 32%;
+}
+.login_btn{
+    margin: -11% 4.5%;
+    width: 32%;
+    float: right;
+}
+.logged{
+
+    margin-left: 6%;
+    color: white;
+}
+.logged2{
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+}
+.right_box{
+    background-color: rgb(7, 7, 121);
+    border-radius: 4%;
+    margin: -86% 51.5%;
+    width: 45%;
+    height: 80%;
+    font-family: 'comic sans ms';
+}
+.r_chat{
+    background-color: rgba(188, 218, 235, 0.8);
+    margin: -2% 4.5%;
+    width: 91%;
+    height: 63%; 
+    overflow:auto;
+    font-family: 'comic sans ms';
+    font-size: 12px;
+}
+.delete{
+    margin: 10% -24%;
+    color: white;
+    background-color: red;
+    border: none;
+    width: 40%;
+    height: 6%;
+}
+::-webkit-scrollbar{
+    width: 2px;
+    color: white;
+}

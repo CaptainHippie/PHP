@@ -10,14 +10,15 @@ $right_user = $_SESSION["r_user"];
 <html>
 <link rel="stylesheet" href="css/chat_new.css">
 <body>
+<div id="main">
 <header>CHAT BOX</header>
-<div id='left_box'><br><br>
+<div class='left_box'><br><br>
 <div class="logged">Logged in as : <b><?php echo $left_user; ?></b></div>
 <form method="POST">
 <input type="text" name="uname_left" class="uname_box" required><br>
 <input type="submit" name="l_user" value="LOGIN" class="login_btn">
 </form>
-<div id="l_chat"><br>
+<div class="l_chat"><br>
 <?php
 while($row = mysqli_fetch_array($query))
 {
@@ -38,13 +39,13 @@ while($row = mysqli_fetch_array($query))
 </form>
 </div>
 
-<div id='right_box'><br>
+<div class='right_box'><br>
 <div class="logged2">Logged in as : <b><?php echo $right_user; ?></b></div>
 <form method="POST">
 <input type="text" name="uname_right" class="uname_box2" required><br>
 <input type="submit" name="r_user" value="LOGIN" class="login_btn">
 </form>
-<div id="l_chat"><br>
+<div class="l_chat"><br>
 <?php
 
 while($row2 = mysqli_fetch_array($query2))
@@ -99,6 +100,6 @@ if (isset($_POST['delete']))
     header("Location:chat_new.php");
 }
 ?>
-
+</div>
 </body>
 </html>
