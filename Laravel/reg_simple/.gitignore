@@ -19,3 +19,4 @@ composer.lock
 /database/seeders
 /config
 .htaccess
+/public/images
