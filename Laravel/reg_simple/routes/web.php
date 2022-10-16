@@ -5,6 +5,7 @@ use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\CRUDcontroller;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ImageController;
+use App\Http\Controllers\forms;
 
 Route::get('/', function () {
     return view('welcome');
@@ -22,3 +23,5 @@ Route::resource('admin', Admincontroller::class);
 
 Route::get('/gallery',[ImageController::class,'gallery']);
 Route::post('/gallery/upload',[ImageController::class,'upload'])->name('img-add');
+
+Route::get('/formlearn', function () { return view('master2');});
